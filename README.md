@@ -10,6 +10,8 @@ Contributions by `folk` are as restricted as possible. All Copyright is retained
 
 Any author publishing to this repository needs to add their own paragraph that outlines how their contributions may be used.
 
+Please take a look at docs/index.md for more information, as that file is compiled and part of the `mkdocs` output.
+
 # Setup
 
 The documentation must be "compiled" as such, and this occurs locally. I have no knowledge of how to do any of this on Windows or Mac. Here are instructions for a pip-enabled Linux.
