@@ -1,0 +1,95 @@
+# Basic site data
+site_name: Working with SC2
+site_url: https://sc2mapster.github.io/setup/
+site_description: Tips and tricks for how to set up and work with Starcraft II (SC2) maps, modules, and libraries in a more streamlined, organized, intelligent, and efficient way.
+site_author: folk, Talv, SC2Mapster repo team
+
+# Copyright message at the bottom
+copyright: Copyright belongs to the respective authors of each commit. All raw code snippets and art assets (unless owned by Blizzard) from all authors are forcefully relicensed under the UNLICENSE, read more at http://unlicense.org/. For more information on copyrights and licensing, read the README.md file in the git repository that contains the source code of this documentation.
+
+# Top right repo link
+repo_name: SC2+Storm Game Data
+repo_url: https://github.com/SC2Mapster/SC2GameData
+
+# Disables live editing
+edit_uri: ''
+
+# Basic config and layout
+docs_dir: docs
+nav:
+  - Getting Started: setup.md
+  - Triggers: triggers.md
+  - Galaxy: galaxy.md
+  - Trigger Debugging: debug.md
+  - Data: data.md
+  - Interface: ui.md
+  - Fonts and Styles: fonts.md
+  - Loading Screen: loadscreen.md
+  - Security and Banks: security.md
+  - Advanced Tools: tools.md
+  - Git/Version Control: git.md
+  - Advanced Editor: editor.md
+
+# Theme configuration
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  favicon: 'img/favicon.ico'
+  palette:
+    primary: 'blue grey'
+    accent: 'indigo'
+  font:
+    # Ideal font for headings is Berlingske Serif (non-free, $$$)
+    # Ideal font for paragraph is Tisa Pro (non-free, $$$)
+    # The above fonts are used if found, and if not, it falls back to the configured ones below.
+    # Look in theme/main.html for more information.
+    # Alternative paragraph fonts include Libre Baskerville, Gentium Basic, Cabin.
+    header: 'Lora'
+    text: 'Rubik'
+    code: 'IBM Plex Mono'
+  # TODO: Get a custom SVG/whatever here
+  logo:
+    icon: 'code'
+  feature:
+    tabs: true
+
+# Links bottom right, there is no 'discord' type yet apparently. I think it uses fontawesome 5.0.x.
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/SC2Mapster'
+
+# Extensions recommended by the material theme. Personally, I have no idea if we should use them
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+
+# I need this CSS to unfuck the site for personal use
+extra_css:
+  - css/folk.css
+
+# Essentially internal mod_rewrite to make links like /setup/ instead of /setup.html
+use_directory_urls: true
+# Allow the CLI interface to continue operating when an error/warning occurs, instead of HUPing
+strict: false
+# Explicitly sets the local address for live reloads
+dev_addr: '127.0.0.1:8000'
+
+# Only |search| is enabled by default, there's some other plugins available, listed at
+# https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins
+# Most notably, one that allows us to write macros. I don't think we need it.
+plugins:
+  - search
