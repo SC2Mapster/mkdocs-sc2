@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Jump to the [Getting Started](setup.md) section to get started on the main tutorial, or explore any topic at your leisure. The search functionality in the top bar runs entirely in JavaScript in your browser, on a precompiled dictionary, so you need JS enabled for it to work. Other than that, the documentation does not require JS, as far as I am aware.
+Jump to the [Getting Started](getting-started/1-introduction.md) section to get started on the main tutorial, or explore any topic at your leisure. The search functionality in the top bar runs entirely in JavaScript in your browser, on a precompiled dictionary, so you need JS enabled for it to work. Other than that, the documentation does not require JS, as far as I am aware.
 
 The menu on the left side of the screen (or in the hamburger menu in the top left corner on smaller screens) contains the topic sections for the documentation.
 
