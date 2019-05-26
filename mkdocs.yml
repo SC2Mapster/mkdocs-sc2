@@ -25,14 +25,15 @@ edit_uri: ''
 docs_dir: docs
 nav:
   - Home: index.md
-  - Getting Started:
-    - 1. Introduction: getting-started/1-introduction.md
-    - 2. Nomenclature: getting-started/2-nomenclature.md
-    - 3. Editor Setup: getting-started/3-editor-setup.md
-    - 4. Visual Studio Code: getting-started/4-vscode.md
-    - 5. Initializing sc2edit: getting-started/5-sc2edit.md
-    - 6. Scaffolding your project: getting-started/6-scaffolding.md
-    - 7. Finishing touches: getting-started/7-done.md
+  - Getting Started: setup.md
+  # - Getting Started:
+  #   - 1. Introduction: getting-started/1-introduction.md
+  #   - 2. Nomenclature: getting-started/2-nomenclature.md
+  #   - 3. Editor Setup: getting-started/3-editor-setup.md
+  #   - 4. Visual Studio Code: getting-started/4-vscode.md
+  #   - 5. Initializing sc2edit: getting-started/5-sc2edit.md
+  #   - 6. Scaffolding your project: getting-started/6-scaffolding.md
+  #   - 7. Finishing touches: getting-started/7-done.md
   - Triggers: triggers.md
   - Galaxy: galaxy.md
   - Trigger Debugging: debug.md
@@ -66,7 +67,7 @@ theme:
   logo:
     icon: 'code'
   feature:
-    tabs: true
+    tabs: false
 
 # Links bottom right, there is no 'discord' type yet apparently. I think it uses fontawesome 5.0.x.
 extra:

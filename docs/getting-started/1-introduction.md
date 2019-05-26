@@ -1,6 +1,6 @@
 # Getting Started with SC2 development
 
-Nowadays - thanks mostly to Talv and his excellent work - there is only one way of developing maps/mods/libraries for Starcraft II that makes any sense. You may think that your workflow is superior, or that you - personally - work faster or "better" in whatever development environment you are currently using.
+Nowadays there is only one way of developing maps/mods/libraries for Starcraft II that makes any sense. You may think that your workflow is superior, or that you - personally - work faster or "better" in whatever development environment you are currently using.
 
 You are - put simply - wrong.
 
